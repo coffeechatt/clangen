@@ -39,11 +39,11 @@ class Name(object):
     normal_prefixes = ["Adder", "Alder", "Ant", "Apple", "Ash", "Acorn", "Arch", "Aspen", "Bark", "Bay", "Bee",
                        "Badger", "Beetle", "Beech", "Berry", "Bat", "Beaver", "Big", "Birch", "Bird", "Bloom", "Borage", "Boulder", "Bounce",
                        "Blossom", "Bracken", "Branch", "Brave", "Bramble", "Burdock", "Briar", "Bright", "Brindle", "Bristle",
-                       "Broken", "Brook", "Bug", "Bumble", "Buzzard", "Cherry", "Chestnut", "Chive", "Cinder",
-                       "Cheetah", "Cinnamon", "Cloud", "Cold", "Crow", "Cedar", "Claw", "Clover", "Copper", "Cone",
-                       "Creek", "Cricket", "Crooked", "Crouch", "Curl", "Curly", "Cypress", "Dapple", "Dove", "Dusk",
+                       "Broken", "Brook", "Bug", "Bumble", "Buzzard", "Cactus", "Cherry", "Chestnut", "Chive", "Cinder",
+                       "Cheetah", "Cinnamon", "Cloud", "Cold", "Crow", "Cedar", "Claw", "Clover", "Copper", "Cone", "Cotton",
+                       "Creek", "Cricket", "Crooked", "Crouch", "Curl", "Curly", "Cypress", "Dapple", "Daffodil", "Destiny", "Dove", "Duck", "Dusk",
                        "Dust", "Dawn", "Dead", "Dew", "Doe", "Down", "Drift", "Duck", "Eagle", "Echo", "Eel", "Elm",
-                       "Ember", "Freckle", "Fringe", "Frozen", "Feather", "Fern", "Fennel", "Ferret", "Flame", "Flower", "Fallen",
+                       "Ember", "Flat", "Freckle", "Fringe", "Frozen", "Feather", "Fern", "Fennel", "Ferret", "Flame", "Flower", "Fallen",
                        "Fallow", "Fawn", "Fin", "Finch", "Flail", "Flutter", "Fir", "Frog", "Frond", "Flash", "Flax",
                        "Fleet", "Flicker", "Flint", "Flip", "Fly", "Fuzzy", "Goose", "Gorse", "Grass", "Gravel", "Gull",
                        "Hail", "Hare", "Hay", "Hatch", "Half", "Hawk", "Heather", "Heavy", "Heron", "Hickory", "Hill",
@@ -54,7 +54,7 @@ class Name(object):
                        "Mint", "Mist", "Mistle", "Misty", "Murk", "Morning", "Moss", "Mossy", "Mottle", "Mud", "Mumble",
                        "Nectar", "Night", "Nettle", "Nut", "Needle", "Newt", "Oat", "Odd", "Oak", "One", "Otter", "Owl",
                        "Parsley", "Patch", "Pear", "Petal", "Pebble", "Perch", "Pigeon", "Python", "Pike", "Pine", "Pod", "Poppy",
-                       "Panther", "Pounce", "Prickle", "Quail", "Quick", "Quiet", "Rabbit", "Ragged", "Reed", "Ripple", "Ridge",
+                       "Panther", "Pounce", "Prickle", "Pumpkin", "Quail", "Quick", "Quiet", "Rabbit", "Ragged", "Reed", "Ripple", "Ridge",
                        "River", "Rain", "Raven", "Rat", "Robin", "Rock", "Rose", "Rowan", "Rubble", "Running", "Rush",
                        "Rook", "Root", "Rye", "Sage", "Sandy", "Scorch", "Sedge", "Sharp", "Shimmer", "Spring",
                        "Strike", "Seed", "Shade", "Shell", "Short", "Shy", "Sky", "Slate", "Sleek", "Slight", "Sloe",
@@ -135,7 +135,8 @@ class Name(object):
                    "Bastet, Birb", "Bee", "Burm", "Chrissy", "Cherry", "Chief", "Crow", "Carrie", "Calvin", "Cookie",
                    "Catie", "Charm", "Crane", "Crab", "Charles", "Caroline", "Conan", "Cloud", "Charlie", "Cowboy",
                    "Dune", "Dan", "Dove", "Delilah", "Emerald", "Emy", "Erica", " Eddie", "Eda", "Ferret", "Fawn",
-                   "Fallow", "Ferry", "Gamble", "Grain", "Gir", "Heron", "Hop", "Honey", "Hot Sauce", "Habanero"]
+                   "Fallow", "Ferry", "Gamble", "Grain", "Gir", "Heron", "Hop", "Honey", "Hot Sauce", "Habanero", 
+                   "Jeff Bazos", "Kurtis", "Butters", "Sherk", "Robber", "Hound", "Sherlock", "John Watson", "Tea"]
         
     if os.path.exists('saves/prefixlist.txt'):
         with open('saves/prefixlist.txt', 'r') as read_file:
