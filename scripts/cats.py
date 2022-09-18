@@ -12,13 +12,15 @@ class Cat(object):
     traits = ['strange', 'bloodthirsty', 'ambitious', 'loyal', 'righteous', 'fierce', 'nervous', 'strict',
               'charismatic', 'calm', 'daring', 'loving', 'playful', 'lonesome', 'cold', 'insecure', 'vengeful',
               'shameless', 'faithful', 'troublesome', 'empathetic', 'adventurous', 'thoughtful', 'compassionate',
-              'childish', 'confident', 'careful', 'altruistic', 'bold', 'clever', 'responsible', 'sneaky', 'wise']
-    kit_traits = ['bouncy', 'bullying', 'daydreamer', 'nervous', 'charming', 'attention-seeker', 'impulsive',
-                  'inquisitive', 'bossy', 'troublesome', 'quiet', 'daring', 'sweet', 'insecure', 'noisy', 'polite']
+              'childish', 'confident', 'careful', 'altruistic', 'bold', 'clever', 'responsible', 'sneaky', 'wise', 
+              'understanding', 'rude', 'ruthless', 'tough', 'spacey', 'serious', 'lazy', 'flirtatious', 'naive']
+    kit_traits = ['bouncy', 'bully', 'daydreamer', 'nervous', 'charming', 'attention-seeker', 'impulsive',
+                  'inquisitive', 'bossy', 'troublesome', 'quiet', 'daring', 'sweet', 'insecure', 'noisy', 'polite',
+                 'naive', 'spacey', 'odd', 'serious', 'hyper']
     ages = ['kitten', 'adolescent', 'young adult', 'adult', 'senior adult', 'elder', 'dead']
     age_moons = {'kitten': [0, 5], 'adolescent': [6, 11], 'young adult': [12, 47], 'adult': [48, 95],
                  'senior adult': [96, 119], 'elder': [120, 199]}
-    gender_tags = {'female': 'F', 'male': 'M'}
+    gender_tags = {'female': 'F', 'male': 'M', 'nonbinary': '⚲'}
     skills = ['good hunter', 'great hunter', 'fantastic hunter', 'smart', 'very smart', 'extremely smart',
               'good fighter', 'great fighter', 'excellent fighter', 'good speaker', 'great speaker',
               'excellent speaker', 'strong connection to starclan', 'good teacher', 'great teacher',
